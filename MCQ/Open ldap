@@ -1,0 +1,190 @@
+
+What does LDAP stand for?
+Answer: a) Lightweight Directory Access Protocol
+
+OpenLDAP is primarily used for:
+Answer: b) Storing and managing directory information
+
+Which port does OpenLDAP typically use?
+Answer: c) 389
+
+Which configuration file is commonly used to set up OpenLDAP?
+Answer: c) slapd.conf
+
+What type of database backend does OpenLDAP support?
+Answer: d) Various options including MDB and BDB
+
+The root DSE (Directory System Entry) in OpenLDAP provides:
+Answer: b) Details about the LDAP server's software version and capabilities
+
+Which command is used to start the OpenLDAP server?
+Answer: d) systemctl start slapd
+
+In OpenLDAP, a DIT (Directory Information Tree) represents:
+Answer: b) A hierarchical structure of directory entries
+
+What authentication mechanisms does OpenLDAP support?
+Answer: c) Various mechanisms including Simple and SASL
+
+What is LDIF used for in the context of OpenLDAP?
+Answer: c) Storing directory entries and changes
+
+Which utility is used to populate an LDAP directory with initial data from an LDIF file?
+Answer: b) ldapadd
+
+What is a "dn" in an LDAP entry?
+Answer: d) Distinguished Name
+
+OpenLDAP supports which type(s) of replication?
+Answer: c) Multi-master and provider-consumer
+
+The "cn" attribute in an LDAP entry typically stands for:
+Answer: a) Common Name
+
+What is the purpose of the OpenLDAP "slapcat" command?
+Answer: c) Export directory data to an LDIF file
+
+Which of the following is a valid LDAP URL?
+Answer: c) ldaps://ldap.mydomain.org:636/ou=people,dc=org
+
+OpenLDAP uses which backend database by default?
+Answer: d) BDB (Berkeley DB)
+
+What is the purpose of the "objectClass" attribute in an LDAP entry?
+Answer: c) It defines the attributes the entry can have
+
+Which LDAP operation is used to modify an existing entry?
+Answer: c) MODIFY
+ 
+What does SASL stand for in the context of OpenLDAP?
+Answer: d) Simple Authentication and Security Layer
+
+What is OpenLDAP?
+a) An open-source lightweight database management system
+
+Which of the following protocols is commonly used by OpenLDAP for communication?
+c) LDAP
+
+What is the main purpose of OpenLDAP?
+a) Managing user accounts and authentication
+
+In OpenLDAP, what does "DN" stand for?
+d) Distinguished Name
+
+Which statement is true about LDAP and OpenLDAP?
+c) OpenLDAP is a popular open-source implementation of the LDAP protocol.
+
+Which configuration file is commonly used to set up OpenLDAP?
+b) /etc/openldap/openldap.conf
+
+What is the purpose of the slapd daemon in OpenLDAP?
+b) It is responsible for managing and serving the LDAP directory.
+
+Which of the following tools can be used to interact with OpenLDAP from the command line?
+c) ldapsearch
+
+What is LDIF (LDAP Data Interchange Format) used for?.
+c) It is a text-based format used to exchange directory data between different LDAP servers or clients.
+
+Which statement best describes the use of OpenLDAP in an organization?
+c) OpenLDAP is used for centralized user authentication and directory services.
+
+Which protocol does OpenLDAP primarily use for communication?
+b) TCP/IP
+
+What is the default port used by LDAP for unencrypted communication?
+b) 389
+
+What is the purpose of the slapd configuration file (slapd.conf)?
+c) It specifies the access control rules for the LDAP server.
+
+
+In OpenLDAP, what is an "attribute"?
+c) A unit of data within an LDAP entry that holds a specific type of information.
+
+What is a "bind" operation in LDAP used for?
+b) Authenticating a user to the LDAP server.
+
+What does the command ldapsearch do?
+b) It queries an LDAP server and retrieves directory entries.
+
+Which LDAP protocol operation is used to add a new entry to the directory?
+c) ADD
+
+What is the LDAP directory structure typically organized as?
+c) A hierarchical tree-like structure of entries.
+
+Which utility is used to populate an LDAP directory with initial data from an LDIF file?
+c) ldapimport
+
+Which security protocol is used to secure LDAP communication by providing encryption and authentication?
+b) TLS
+
+What does LDAP stand for?
+a) Lightweight Directory Access Protocol
+
+Which of the following is a common use case for OpenLDAP?
+d) Centralized user authentication
+
+What is the default root directory of the OpenLDAP server?
+d) /var/lib/ldap
+
+Which command is used to add or modify entries in an LDAP directory?
+c) ldapmodify
+
+Which type of LDAP entry represents a person in a directory?
+ cn 
+
+What is an "ObjectClass" in an LDAP schema?
+b) A group of attributes that define the properties of an LDAP entry.
+
+Which of the following is an example of an LDAP "RDN" (Relative Distinguished Name)?
+a) uid=john,ou=users,dc=example,dc=com
+
+What is the purpose of LDAP referrals?
+d) They direct clients to another LDAP server for specific operations.
+
+Which attribute is commonly used to uniquely identify an LDAP entry within a specific container?
+c) dn
+
+What is the default port for LDAP communication over TLS/SSL (LDAPS)?
+b) 636
+
+Which component of OpenLDAP is responsible for handling read and write operations on the database?
+d) slapcat
+
+Which LDAP operation is used to modify attributes of an existing entry?
+b) MODIFY
+
+In an LDAP URL, what does the scheme "ldaps" indicate?
+b) Local Directory Authentication Protocol over SSL
+
+Which command is used to test a connection to an LDAP server?
+b) ldapsearch
+
+What is the purpose of an LDAP schema?
+a) To define the structure and rules for the LDAP database
+
+Which type of LDAP entry represents an organizational unit?
+c) ou
+
+Which LDAP operation is used to delete an entry from the directory?
+b) DELETE
+
+What is the function of the slapd.conf file in OpenLDAP?
+c) To configure the slapd daemon
+
+What is the purpose of the root DSE (DIT Structure Entry) in LDAP?
+b) To represent the root of the LDAP directory tree
+
+Which utility is used to back up and restore the OpenLDAP database?
+d) slapcat
+
+
+
+
+
+
+
+
+

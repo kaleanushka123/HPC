@@ -1,0 +1,177 @@
+
+NTP MCQs and Answers
+
+Default (GPT-3.5)
+
+User
+Ntp MCQ question atleast 20
+
+ChatGPT
+I'd be happy to help you with that! Here are 20 multiple-choice questions (MCQs) about NTP (Network Time Protocol):
+
+What does NTP stand for?
+a) Network Technology Protocol
+b) Network Timing Protocol
+c) Network Time Protocol
+d) Network Transfer Protocol
+
+         Answer:- c) Network Time Protocol
+
+NTP is used for:
+a) File sharing
+b) Time synchronization
+c) Voice communication
+d) Video streaming
+
+        Answer:- b) Time synchronization
+
+Which layer of the OSI model does NTP primarily operate on?
+a) Physical layer
+b) Data link layer
+c) Network layer
+d) Application layer
+
+      Answer:- d) Application layer
+
+
+Which port does NTP typically use for comunication?
+a) 53
+b) 80
+c) 123
+d) 443
+
+     Answer:- 123
+
+NTP employs which synchronization algorithm?
+a) RSA
+b) DES
+c) MD5
+d) Marzullo's algorithm
+
+     Answer:- d) Marzullo's algorithm
+
+Which stratum in NTP represents the most accurate time source?
+a) Stratum 0
+b) Stratum 1
+c) Stratum 10
+d) Stratum 100
+
+     Answer:- b) Stratum 1
+
+Which type of NTP server is directly connected to a reliable time source?
+a) Primary server
+b) Secondary server
+c) Reference server
+d) Backup server
+
+    Answer:- a) Primary server
+
+What is the main purpose of NTP authentication?
+a) Data encryption
+b) Preventing unauthorized access
+c) Load balancing
+d) Hardware synchronization
+
+   Answer:- b) Preventing unauthorized access
+
+Which command is used to manually synchronize a system's time using NTP?
+a) ntpdate
+b) syncntp
+c) timeman
+d) ntpsync
+
+  Answer:- a) ntpdate
+
+Which operating systems commonly use NTP for time synchronization?
+a) Windows only
+b) Linux and macOS only
+c) Linux, macOS, and Windows
+d) Android only
+
+  Answer:- c) Linux, macOS, and Windows
+
+The "stratum" in NTP refers to:
+a) The number of time zones covered
+b) The level of time accuracy
+c) The number of NTP servers in a network
+d) The geographic location of the server
+
+   Answer:- b) The level of time accuracy
+
+
+Which mode of NTP operation is used to distribute time information to clients?
+a) Symmetric active
+b) Multicast client
+c) Broadcast server
+d) Client-server
+
+    Answer:- d) Client-server
+
+
+Which stratum level indicates that a server is directly connected to a reference clock?
+a) Stratum 0
+b) Stratum 1
+c) Stratum 2
+d) Stratum 3
+
+    Answer:- a) Stratum 0
+
+
+What is the recommended internet resource for finding reliable NTP servers?
+a) Google
+b) NTP.org
+c) Wikipedia
+d) TimeAndDate.com
+
+   Answer:- b) NTP.org
+
+Which NTP version introduced NTPv4, which includes cryptographic features?
+a) NTPv1
+b) NTPv2
+c) NTPv3
+d) NTPv4
+
+   Answer:- d) NTPv4
+
+NTP uses which type of timestamp to calculate the round-trip delay time?
+a) Transmit timestamp
+b) Receive timestamp
+c) Originate timestamp
+d) Reference timestamp
+
+   Answer:- a) Transmit timestamp
+
+Which algorithm is often used in NTP authentication to ensure data integrity?
+a) RSA
+b) SHA-256
+c) AES
+d) Diffie-Hellman
+
+   Answer:- b) SHA-256
+
+Which stratum level indicates a higher level of accuracy than stratum 2?
+a) Stratum 1
+b) Stratum 3
+c) Stratum 4
+d) Stratum 0
+
+   Answer:- a) Stratum 1
+
+What is the purpose of a leap second in NTP?
+a) To account for daylight saving time
+b) To adjust for leap years
+c) To correct for inaccuracies in atomic clocks
+d) To align Coordinated Universal Time (UTC) with astronomical time
+
+    Answer:- d) To align Coordinated Universal Time (UTC) with astronomical time
+
+Which command can be used to check the synchronization status of an NTP client?
+a) ntpcheck
+b) ntpq
+c) syncstatus
+d) timecheck
+
+   Answer:- b) ntp
+
+
+
